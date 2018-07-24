@@ -1,0 +1,2 @@
+hack of sonoff_basic to have multiple(4) outputs and inputs - useful if you have multiple switches
+
