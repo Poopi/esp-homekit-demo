@@ -12,7 +12,7 @@ git submodule update --init --recursive
 3. Install [esp-open-sdk](https://github.com/pfalcon/esp-open-sdk), build it with `make toolchain esptool libhal STANDALONE=n`, then edit your PATH and add the generated toolchain bin directory. The path will be something like /path/to/esp-open-sdk/xtensa-lx106-elf/bin. (Despite the similar name esp-open-sdk has different maintainers - but we think it's fantastic!)
 
 4. Install [esptool.py](https://github.com/themadinventor/esptool) and make it available on your PATH. If you used esp-open-sdk then this is done already.
-5. Checkout [esp-open-rtos](https://github.com/SuperHouse/esp-open-rtos) and set SDK_PATH environment variable pointing to it.
+5. Checkout [esp-open-rtos](https://github.com/SuperHouse/esp-open-rtos) or use my branch that features newer lwip [esp-open-rtos](https://github.com/Poopi/esp-open-rtos)and set SDK_PATH environment variable pointing to it.
 6. Configure settings:
     1. If you use ESP8266 with 4MB of flash (32m bit), then you're fine. If you have
 1MB chip, you need to set following environment variables:
